@@ -58,3 +58,4 @@ def calculate_big_mac_index(big_mac_data):
 # Function to save data to CSV
 def save_to_csv(data, file_path):
     data.to_csv(file_path, index=False)
+

@@ -5,10 +5,12 @@
 #pragma once
 
 #include <thread>
+#define CURL_STATICLIB
 #include <curl/curl.h>
 #include <fstream>
 #include <iostream>
 #include <memory>
+#include <regex>
 
 #include "nlohmann/json.hpp"
 
